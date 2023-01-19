@@ -1,5 +1,10 @@
 # Ubuntu base containers for Toolbox
-Inspired by https://github.com/containers/toolbox/blob/e27d7cafa45303100db91797179ecec1c4abb9a3/images/debian/unstable/Dockerfile
+Modified Ubuntu containers optimized for interactive input with Toolbox and Podman.
+
+Roughly based on https://github.com/containers/toolbox/blob/e27d7cafa45303100db91797179ecec1c4abb9a3/images/debian/unstable/Dockerfile
+
+## Usage
+` toolbox create <container-name-here> -i docker.io/cjbentley/ubuntu-toolbox:20.04 `
 
 ## Coverage
 - Ubuntu 20.04
